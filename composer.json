@@ -1,0 +1,22 @@
+{
+	"name": "smdevdk/silverstripe-dynamictranslations-fluent",
+	"description": "Dynamic translations for SilverStripe with Fluent Support",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/smdevdk/silverstripe-dynamictranslations-fluent",
+	"keywords": ["silverstripe", "i18", "translations"],
+	"license": "MIT",
+	"authors": [
+		{"name": "Loz Calver","email": "lozcalver@bigfork.co.uk"},
+		{"name": "Anselm Christophersen","email": "ac@cphcloud.com"},
+		{"name": "Simon Mazurek","email": "mail@smdev.dk"}
+	],
+	"support": {
+		"issues": "https://github.com/smdevdk/silverstripe-dynamictranslations"
+	},
+	"require": {
+		"silverstripe/framework": "~3.1"
+	},
+	"extra": {
+		"installer-name": "dynamictranslations-fluent"
+	}
+}
