@@ -14,7 +14,7 @@ class DynamicTranslationAdapter {
 		$string = $this->findOrCreateString($entity, $string);
 
 		if ($injectionArray) {
-			$this->inject($string, $injectionArray);
+			$string = $this->inject($string, $injectionArray);
 		}
 
 		return $string;
