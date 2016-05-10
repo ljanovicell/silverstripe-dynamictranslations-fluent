@@ -1,6 +1,9 @@
 ---
 Name: dynamictranslations
 ---
-DataObject:
+DynamicTranslation:
+  extensions:
+    - 'FluentExtension'
+DynamicTranslationCategory:
   extensions:
     - 'FluentExtension'
